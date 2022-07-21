@@ -1,3 +1,6 @@
+use bevy::prelude::*;
+use bevy::window::WindowDescriptor;
+
 fn main() {
-    println!("Hello, world!");
+    App::new().add_plugins(DefaultPlugins).run();
 }
